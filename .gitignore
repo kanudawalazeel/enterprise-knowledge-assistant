@@ -1,0 +1,82 @@
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+
+# ==========================================
+# Python Cache and Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Tests and Test Artifacts
+# ==========================================
+tests/
+test/
+*_test.py
+test_*.py
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# Original Documents and Private Data
+# ==========================================
+data/
+*.pdf
+*.docx
+*.xls
+*.xlsx
+*.csv
+
+# ==========================================
+# Local Vector Databases and Indexes
+# ==========================================
+chroma_db/
+chroma/
+chroma.sqlite3
+*.parquet
+*.index
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+
+# ==========================================
+# IDE and Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Python Tooling Caches
+# ==========================================
+.mypy_cache/
+.ruff_cache/
+.pytype/
